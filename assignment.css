@@ -42,12 +42,13 @@
     font-size: 40px;
     font-weight: 700px;
     margin-bottom: 30px;
+    width: 300px;
 ;
 }
 .description{
-    
-    padding-top: 100px;
+    padding: 320px 200px 0px 0px ;
     text-align: left;
+    
     
 
 }
@@ -69,6 +70,7 @@
 }
 .list{
     list-style: none;
+    padding-left: 0px;
     
     
     
@@ -107,14 +109,49 @@
     text-align: center;
 }
 
+/* about me  */
+.section-title { margin-bottom: 30px;
+    font-weight: 700px;
+    font-size:35px ;
+    
+}
+.about{
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    background: rgb(219, 227, 221);
+    max-width: 1040px;
+    margin: 100px 200px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px 150pxpx;
 
+} 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{font-size: 20px; 
+    font-weight: 700px;
+    color: #090909;
+
+}
 
 /* gradiant section styles */
 
 .gradiant-title{
     font-size: 35px;
     font-weight: 700px;
-    
+    color: white;
     
     padding:50px 800px 30px 50px ;
     
@@ -150,6 +187,7 @@
     background-color: black;
     color: white;
     padding: 100px 200px;
+    justify-content: space-between;
 
 }
 .title{
@@ -169,4 +207,14 @@
 }
 .phone{
     margin-top: 10px;
+    font-size: 16px;
+}
+.future-details{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.future img{
+    margin-top: 10px;
+    justify-content: space-around;
+
 }
